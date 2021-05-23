@@ -1,0 +1,94 @@
+Compiler: 
+Programming Steps:
+Create the program.
+Compile will parse or analyses all of the language statements for its correctness. If incorrect, throws an error
+If no error, the compiler will convert source code to machine code.
+It links different code files into a runnable program(know as exe)
+Run the Program
+
+Advantage:The program code is already translated into machine code. Thus, it code execution time is less.
+
+Disadvantage:You can't change the program without going back to the source code.
+
+Machine code:Store machine language as machine code on the disk.
+
+Running time:Compiled code run faster
+
+Model:It is based on language translationlinking-loading model.
+
+Program generation:Generates output program (in the form of exe) which can be run independently from the original program.
+
+Execution:Program execution is separate from the compilation. It performed only after the entire output program is compiled.
+
+Memory requirement:Target program executeindependently and do not require the compiler in the memory.
+
+Best suited for: Bounded to the specific target machine and cannot be ported. C and C++ are a most popular a programming language which uses compilation model.
+
+Code Optimization: The compiler sees the entire code upfront. Hence, they perform lots of optimizations that make code run faster.
+
+Dynamic Typing:Difficult to implement as compilers cannot predict what happens at turn time.	
+
+Usage:It is best suited for the Production Environment	
+
+Error execution:Compiler displays all errors and warning at the compilation time. Therefore, you can't run the program without fixing errors
+
+Input: It takes an entire program	
+
+Output:	Compliers generates intermediate machnie code.	
+
+Errors:	Display all errors after, compilation, all at the same time.	
+
+Pertaining Programming languages: C,C++,C#, Scala, Java all use complier.
+
+
+
+INTERPRETER:
+
+Programming Steps: Create the Program. No linking of files or machine code generation.Source statements executed line by line DURING Execution 
+
+Advantage: Interpreters are easier to use, especially for beginners.
+
+Disadvantage: Interpreted programs can run on computers that have 
+
+the corresponding interpreter.
+
+Machine code: Not saving machine code at all.
+
+Running time: Interpreted code run slower
+
+Model: It is based on Interpretation Method.
+
+Program generation: Do not generate output program. So they evaluate the source program at every time during execution.
+
+Execution: Program Execution is a part ofInterpretation process, so it is performed line by line.
+
+Memory requirement: The interpreter exists in the memory during interpretation. 
+
+Best suited for: For web environments, where load times are important. Due to all the exhaustive analysis is done, compiles take relatively larger time to compile even small code that may not be run multiple times. In such cases, interpreters are better.
+
+Code Optimization: Interpreters see code line by line, and thus optimizations are not as robust as compilers
+
+Dynamic Typing: Interpreted languages support Dynamic Typing
+
+Usage: It is best suited for the program and developmentenvironment.
+
+Error execution: The interpreter reads a single statement and shows the error if any. You must correct the error to interpret next line 
+
+Input: It takes a single line of code.
+
+Output: Interpreter never generate any intermediate machnie code.
+
+Errors: Displays all errors of each line one by one
+
+Pertaining Programming languages: PHP, Perl, Ruby uses an interpreter.
+
+
+
+
+
+
+
+
+
+
+

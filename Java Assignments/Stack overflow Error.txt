@@ -1,0 +1,9 @@
+StackOverflowError is an error which Java doesn’t allow to catch, for instance, stack running out of space, as it’s one of the most common runtime errors one can encounter.
+
+The main cause of the StackOverflowError is that we haven’t provided the proper terminating condition to our recursive function or template, which means it will turn into an infinite loop.
+
+When does StackOverflowError encountered?
+
+When we invoke a method, a new stack frame is created on the call stack or on the thread stack size. This stack frame holds parameters of the invoked method, mostly the local variables and the return address of the method. The creation of these stack frames will be iterative and will be stopped only when the end of the method invokes is found in the nested methods. In amidst of this process, if JVM runs out of space for the new stack frames which are required to be created, it will throw a StackOverflowError.
+
+For example: Lack of proper or no termination condition. This is mostly the cause of this situation termed as unterminated or infinite recursion.
