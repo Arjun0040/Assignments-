@@ -1,0 +1,9 @@
+Static Websites
+Static websites contain fixed number of pages and format of web page is fixed which delivers information to the client. There are 110 changes in contents of web page while page is running on client's browser. This kind of web sites created from HTML and CSS coding on simple text editor like notepad. Example an organization site, institute site etc.
+
+Static Website pages display the exact same information whenever anyone visits it. Static Website pages do not have to be simple plain text. They can feature detailed multimedia design and even videos. However, every visitor to that page will be greeted by the exact same text, multimedia design or video every time he visits the page until you alter that page's source code.
+
+Dynamic Website Pages
+Dynamic websites can change the web page contents dynamically while the page is running on client's browser. This kind of websites use server- side programming like PHP, Asp.NET. and JSP etc. to modify page contents on run time. Dynamic websites use client side scripting for prepare dynamic design and server- side code to handle event, manage session and cookies, and storing and retrieving data from database. Example E-commerce sites, online form application, E-governance site, social networking sites etc.
+
+Dynamic Website pages are capable of producing different content for different visitors from the same source code file. The website can display different content based on what operating system or browser the visitor is using, whether she is using a PC or a mobile device, or even the source that referred the visitor. A dynamic Website page is not necessarily better than a static Website page. The two simply serve different purposes.
